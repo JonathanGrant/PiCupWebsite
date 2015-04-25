@@ -3,7 +3,14 @@ body{
     height:95%;
    width:99.2%;
    background-size:cover;/*this sets the image to fullscreen covering the whole screen*/  
-   background-color:#bf0a0a;
+   background: rgba(248,78,48,1);
+background: -moz-linear-gradient(left, rgba(248,78,48,1) 0%, rgba(189,10,10,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(248,78,48,1)), color-stop(100%, rgba(189,10,10,1)));
+background: -webkit-linear-gradient(left, rgba(248,78,48,1) 0%, rgba(189,10,10,1) 100%);
+background: -o-linear-gradient(left, rgba(248,78,48,1) 0%, rgba(189,10,10,1) 100%);
+background: -ms-linear-gradient(left, rgba(248,78,48,1) 0%, rgba(189,10,10,1) 100%);
+background: linear-gradient(to right, rgba(248,78,48,1) 0%, rgba(189,10,10,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f84e30', endColorstr='#bd0a0a', GradientType=1 );
 }
 zzz{
     font-family:cursive;
